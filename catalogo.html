@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Catálogo de productos mayoristas más completo de Argentina. Mapa interactivo con todos los fabricantes y comerciantes mayoristas de la zona comercial de Av.Avellaneda, Flores, Capital Federal, Argentina.">
+  <meta name="keywords"  content="ropa por mayor, mayoristas, Flores, Av. Avellaneda, ropa de mujer por mayor, ropa de hombre por mayor, precios mayoristas">
+  <meta name="Ayelen Kim" content="Proyecto Final de Desrrollo Web">
+  <title>Unite a la comunidad de Flores</title>
+
+  <title>Catalogo de ropa por mayor</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/shop-homepage.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<!-- navbar -->
+<nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
+  <img src="img/logo.png" alt="logo" class="logo">
+  <a class="navbar-brand" href="index.html">Mayoristas</a>
+
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="tiendas.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Tiendas
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="tiendas.html">Buscador de tiendas</a>
+              <a class="dropdown-item" href="perfil-tienda.html">Tienda de ejemplo</a>
+          </div>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="catalogo.html">Catálogo</a>
+    </li>
+       <li class="nav-item">
+          <a class="nav-link" href="/mi-cuenta.html">Mi cuenta</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="buscar..." aria-label="Search">
+      <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Ir</button>
+    </form>
+  </div>
+</nav>
+<!-- /.navbar -->
+
+<!-- container con contenido principal -->
+<div class="container">
+
+    <!-- Header con mapa -->
+    <div class="banner my-4">
+        <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1hrt_9WmA9OtVF9lOWaqwURF8RYCTcn8M" height="240"></iframe>
+    </div>
+    <!-- /.Header con mapa -->
+  
+    <!-- row -->
+    <div class="row">
+  
+      <!-- aside con filtros izquierda -->
+      <aside class="col-md-4">
+  
+        <!-- filtros -->
+        <div id="accordion">
+  
+          <!-- Categoria de ropa -->
+          <div class="card my-4">
+            <div class="card-header" id="headingOne">
+              <h5 class="mb-0">
+                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  <h5>Indumentaria Juvenil</h5>
+                </button>
+              </h5>
+            </div>
+        
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <ul class="list-unstyled mb-0">
+                      <li>
+                        <a href="#">Remeras</a>
+                      </li>
+                      <li>
+                        <a href="#">Remerones</a>
+                      </li>
+                      <li>
+                        <a href="#">Tops</a>
+                      </li>
+                      <li>
+                        <a href="#">Vestidos y enteros</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-lg-6">
+                    <ul class="list-unstyled mb-0">
+                      <li>
+                        <a href="#">Sacos y camperas</a>
+                      </li>
+                      <li>
+                        <a href="#">Pantalones</a>
+                      </li>
+                      <li>
+                        <a href="#">Short y polleras</a>
+                      </li>
+                      <li>
+                        <a href="#">Sweaters y tapados</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <!-- Colores -->
+          <div class="card my-4">
+            <div class="card-header" id="headingTwo">
+              <h5 class="mb-0">
+                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                  <h5>Colores</h5>
+                </button>
+              </h5>
+            </div>
+        
+            <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordion">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <ul class="list-unstyled mb-0">
+                      <li>
+                        <a href="#">Rosa</a>
+                      </li>
+                      <li>
+                        <a href="#">Celeste</a>
+                      </li>
+                      <li>
+                        <a href="#">Verde agua</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-lg-6">
+                    <ul class="list-unstyled mb-0">
+                      <li>
+                        <a href="#">Lila</a>
+                      </li>
+                      <li>
+                        <a href="#">Blanco</a>
+                      </li>
+                      <li>
+                        <a href="#">Negro</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Telas -->
+          <div class="card my-4">
+            <div class="card-header" id="headingThree">
+              <h5 class="mb-0">
+                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                  <h5>Tela</h5>
+                </button>
+              </h5>
+            </div>
+        
+            <div id="collapseThree" class="collapse show" aria-labelledby="headingThree" data-parent="#accordion">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <ul class="list-unstyled mb-0">
+                      <li>
+                        <a href="#">Jeanería</a>
+                      </li>
+                      <li>
+                        <a href="#">Estampados</a>
+                      </li>
+                      <li>
+                        <a href="#">Morley</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-lg-6">
+                    <ul class="list-unstyled mb-0">
+                      <li>
+                        <a href="#">Algodón</a>
+                      </li>
+                      <li>
+                        <a href="#">Lino</a>
+                      </li>
+                      <li>
+                        <a href="#">Modal</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Otros -->
+          <div class="card my-4">
+            <div class="card-header" id="headingFour">
+              <h5 class="mb-0">
+                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                  <h5>Otros</h5>
+                </button>
+              </h5>
+            </div>
+        
+            <div id="collapseFour" class="collapse show" aria-labelledby="headingFour" data-parent="#accordion">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <ul class="list-unstyled mb-0">
+                      <li>
+                        <a href="#">Con apliques</a>
+                      </li>
+                      <li>
+                        <a href="#">Con cierre</a>
+                      </li>
+                      <li>
+                        <a href="#">Con brillos</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-lg-6">
+                    <ul class="list-unstyled mb-0">
+                      <li>
+                        <a href="#">Con botones</a>
+                      </li>
+                      <li>
+                        <a href="#">Batik</a>
+                      </li>
+                      <li>
+                        <a href="#">Con encaje</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+  
+      </aside>
+      <!-- /.aside con filtros izquierda -->
+  
+      <!-- main derecha -->
+      <main class="col-md-8">
+  
+        <!-- mapa de filtros -->
+        <ol class="breadcrumb my-4">
+          <li class="breadcrumb-item">
+            <a href="catalogo.html">Indumentaria</a>
+          </li>
+          <li class="breadcrumb-item">Juvenil</li>
+          <li class="breadcrumb-item active">Remeras</li>
+        </ol>
+        <!-- /.mapa de filtros -->
+  
+      <!-- catálogo de productos -->
+      <div class="row">
+
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card card-product h-100">
+            <a href="#"><img class="card-img-top" src="img/art1.png" alt=""></a>
+            
+            <!-- hover overlay -->
+            <div class="overlay">
+              <a href="#" class="icon" title="User Profile">
+                <ion-icon name="heart-outline">Guardar</ion-icon>
+              </a>
+            </div>
+            <!-- /.hover overlay -->
+
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="#">Nombre del producto</a>
+              </h4>
+              <h5>$720</h5>
+              <p class="card-text">Detalle de tela, medidas, colores disponibles, etc</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Actualizado hace 3 minutos</small>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card card-product h-100">
+            <a href="#"><img class="card-img-top" src="img/art2.png" alt=""></a>
+
+            <!-- hover overlay -->
+            <div class="overlay">
+              <a href="#" class="icon" title="User Profile">
+                <ion-icon name="heart-outline">Guardar</ion-icon>
+              </a>
+            </div>
+            <!-- /.hover overlay -->
+
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="#">Nombre del producto</a>
+              </h4>
+              <h5>$720</h5>
+              <p class="card-text">Detalle de tela, medidas, colores disponibles, etc</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Actualizado hace 2 horas</small>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card card-product h-100">
+            <a href="#"><img class="card-img-top" src="img/art3.png" alt=""></a>
+
+            <!-- hover overlay -->
+            <div class="overlay">
+              <a href="#" class="icon" title="User Profile">
+                <ion-icon name="heart-outline">Guardar</ion-icon>
+              </a>
+            </div>
+            <!-- /.hover overlay -->
+
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="#">Nombre del producto</a>
+              </h4>
+              <h5>$720</h5>
+              <p class="card-text">Detalle de tela, medidas, colores disponibles, etc</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Actualizado hace 2 horas</small>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card card-product h-100">
+            <a href="#"><img class="card-img-top" src="img/art4.png" alt=""></a>
+
+            <!-- hover overlay -->
+            <div class="overlay">
+              <a href="#" class="icon" title="User Profile">
+                <ion-icon name="heart-outline">Guardar</ion-icon>
+              </a>
+            </div>
+            <!-- /.hover overlay -->
+
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="#">Nombre del producto</a>
+              </h4>
+              <h5>$720</h5>
+              <p class="card-text">Detalle de tela, medidas, colores disponibles, etc</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Actualizado hace 2 días</small>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card card-product h-100">
+            <a href="#"><img class="card-img-top" src="img/art5.png" alt=""></a>
+
+            <!-- hover overlay -->
+            <div class="overlay">
+              <a href="#" class="icon" title="User Profile">
+                <ion-icon name="heart-outline">Guardar</ion-icon>
+              </a>
+            </div>
+            <!-- /.hover overlay -->
+
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="#">Nombre del producto</a>
+              </h4>
+              <h5>$720</h5>
+              <p class="card-text">Detalle de tela, medidas, colores disponibles, etc</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Actualizado hace 2 días</small>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card card-product h-100">
+            <a href="#"><img class="card-img-top" src="img/art6.png" alt=""></a>
+
+            <!-- hover overlay -->
+            <div class="overlay">
+              <a href="#" class="icon" title="User Profile">
+                <ion-icon name="heart-outline">Guardar</ion-icon>
+              </a>
+            </div>
+            <!-- /.hover overlay -->
+
+            <div class="card-body">
+              <h4 class="card-title">
+                <a href="#">Nombre del producto</a>
+              </h4>
+              <h5>$720</h5>
+              <p class="card-text">Detalle de tela, medidas, colores disponibles, etc</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Actualizado hace 2 días</small>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <!-- /.row -->
+  
+      <!-- Paginación -->
+      <ul class="pagination justify-content-center">
+        <li class="page-item">
+          <a class="page-link" href="#" aria-label="Previous">
+            <span aria-hidden="true">&laquo;</span>
+            <span class="sr-only">Previous</span>
+          </a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#">1</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#">2</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#">3</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="#" aria-label="Next">
+            <span aria-hidden="true">&raquo;</span>
+            <span class="sr-only">Next</span>
+          </a>
+        </li>
+      </ul>
+  
+      </main>
+      <!-- /.main derecha -->
+  
+    </div>
+    <!-- /.row -->
+  
+  </div>
+  <!-- /.container con contenido principal -->
+  
+  <hr>
+  <!-- Footer -->
+  <footer>
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-lg-2 my-2">
+            <img class="logo-footer" src="img/logo.png" alt="">
+            <br>
+          </div>
+          <div class="col-md-4 col-lg-5 my-2">
+            <h3>Contacto</h3>
+                <p><ion-icon name="location-outline"></ion-icon> Av.Avellaneda 2394, Flores, CABA, Argentina</p>
+                <p><ion-icon name="logo-whatsapp"></ion-icon></i> +54 9 11 2245 3875</p>
+                <p><ion-icon name="mail-outline"></ion-icon><a href=#> info@mayoristas.com.ar</a></p>
+          </div>
+          <div class="col-md-4 col-lg-5 my-2">
+            <h3>Seguinos!</h3>
+            <p>
+              <a href="#"><ion-icon class="redes" name="logo-facebook"></ion-icon></a> 
+              <a href="#"><ion-icon class="redes" name="logo-instagram"></ion-icon></a>
+              <a href="#"><ion-icon class="redes" name="logo-pinterest"></ion-icon></a>
+            </p>
+            <br>
+            <p>&copy; Todos los derechos reservados</p>
+          </div>
+          </div>
+      </div>
+    </div>
+  </footer>
+
+
+<!-- Bootstrap core JavaScript -->
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+
+</body>
+
+</html>

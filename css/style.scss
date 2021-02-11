@@ -1,0 +1,156 @@
+@import './paleta';
+@import './fontstyles';
+
+.banner{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+p{
+    color: $negro;
+}
+h4{
+    color: $coral;
+    a{
+        color: $coral;
+    }
+}
+
+.card-header{
+    background-color: $cielo;
+    padding: 5px 5px 5px 10px;
+    border: 5px;
+    color: $negro;
+}
+.card-footer{
+    background-color: $gris;
+    padding: 5px 5px 5px 10px;
+    border: 5px;
+    color: $negro;
+    .btn{
+        background-color: $gris;
+        padding: 5px 5px 5px 10px;
+        border-color: $gris;
+        color: $negro;
+    }
+}
+
+.btn:hover{
+    background-color: $gris;
+    color: $coral;
+}
+
+.logo{
+    height: 30px;
+    width: 30px;
+    margin-right: 3px;
+}
+
+a, .btn-link{
+    color: $negro;
+}
+
+.btn-link:hover{
+    color: $coral;
+}
+
+.card-product{
+    border-radius: 4px;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+    cursor: pointer;
+}
+
+.card-product:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+    opacity: 0.5;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .3s ease;
+    background-color: whitesmoke;
+  }
+  
+.card-product:hover .overlay{
+opacity: 0.8;
+}
+
+.icon {
+    font-size: 60px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.vermas{
+    font-size: 14px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.icon:hover {
+    color: $coral;
+}
+
+.vermas:hover{
+    color: $coral;
+    opacity: 100%;
+}
+
+.margin{
+    margin-bottom: 1rem;
+}
+
+.margin-completo{
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+}
+.pagination{
+    color: $coral;
+}
+
+.logo-footer{
+    width: 100px;
+    height: 100px;
+    margin: 1rem;
+}
+
+.redes{
+    width: 2rem;
+    height: 2rem;
+}
+
+.footer{
+    margin: 3rem;
+}
+
+
+iframe{
+    width: 100%;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .banner{
+        height: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}
